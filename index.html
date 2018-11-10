@@ -1,67 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>安城文化沙龙</title>
 
-	<title>安城文化沙龙</title>
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/night.css" />
 
-	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/night.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css" />
 
-	<!-- Theme used for syntax highlighting of code -->
-	<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+    <style>
+      .sp-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
-	<!-- Printing and PDF exports -->
-	<script>
-		var link = document.createElement('link');
-		link.rel = 'stylesheet';
-		link.type = 'text/css';
-		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-		document.getElementsByTagName('head')[0].appendChild(link);
-	</script>
-	<style>
-		.sp-slide {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
+      .sp-slide .sp-span {
+        font-size: 2em;
+        margin: 1em;
+      }
 
-		.sp-slide .sp-span {
-			font-size: 2em;
-			margin: 1em;
-		}
+      .reveal section .sp-slide img {
+        background: transparent;
+        border: 0;
+      }
+    </style>
+  </head>
 
-		.reveal section .sp-slide img {
-			background: transparent;
-			border: 0;
-		}
-	</style>
-</head>
-
-<body>
-	<div class="reveal">
-		<div class="slides">
-			<!-- <section>
-				<div class="sp-slide">
-					<img src="./assets/shalong-logo-trans.png" alt="">
-					<span class="sp-span">🤝</span>
-					<img src="./assets/songshuhui-logo.jpg" alt="">
-				</div>
-			</section> -->
-			<section data-markdown>
-				<textarea data-template>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!--
+          <section>
+          	<div class="sp-slide">
+          		<img src="./assets/shalong-logo-trans.png" alt="">
+          		<span class="sp-span">🤝</span>
+          		<img src="./assets/songshuhui-logo.jpg" alt="">
+          	</div>
+          </section>
+        -->
+        <section data-markdown>
+          <textarea data-template>
 						# 安城文化沙龙
 
 						## [aashalong.com](http://aashalong.com)
 
 						安城文化沙龙创办于2008年，是密大华人学生的重要活动组织之一。话题涉及文史理政等诸多方面，主讲人多为密大在读的博士生或访问学者。
 						交流让思维更深入，分享使见识更广阔。不愿在循规蹈矩的生活中逐渐平庸的朋友们，欢迎加入我们的文化沙龙！
-					</textarea>
-			</section>
-			<section data-markdown>
-				<textarea data-template>
+					</textarea
+          >
+        </section>
+        <section data-markdown>
+          <textarea data-template>
 						## 关注我们
 						* 网站：[aashalong.com](http://aashalong.com)
 						* 微信公众号：@安城文化沙龙
@@ -69,17 +76,19 @@
 						* 微博：@安城文化沙龙
 
 						![WeChat](./assets/Shalong_QR_Code.jpg)
-					</textarea>
-			</section>
-			<section data-markdown>
-				<textarea data-template>
+					</textarea
+          >
+        </section>
+        <section data-markdown>
+          <textarea data-template>
 						## 参与我们
 						* 讲者
 						* 志愿者
-					</textarea>
-			</section>
-			<section data-markdown>
-				<textarea data-template>
+					</textarea
+          >
+        </section>
+        <section data-markdown>
+          <textarea data-template>
 						* 1月13日，琳军：自动驾驶
 						* 1月20日，子咏：心理学
 						* 2月3日，名然：安全持枪知识
@@ -91,67 +100,70 @@
 						* 4月13日（周五），赵智沉：区块链
 						* 5月12日，郭彤：旅行&潜水
 						* 暑期活动：Kayak, 观看世界杯决赛......
-					</textarea>
-			</section>
-			<section data-markdown>
-				<textarea data-template>
+					</textarea
+          >
+        </section>
+        <section data-markdown>
+          <textarea data-template>
 						（以下暂行安排，为具体时间和题目可能会有所变动）
 						* 9月15日，邹征廷（卢平）：达尔文之后的演化学家，都在干些啥？
 						* 9月22日，卢运则：夜空导览 - 天文观测入门
 						* 9月29日，李昌林（昌兄）：美国公路旅行攻略
-						* 10月27日，艾苇：大数据和因果推断
+						* 11月3日, 张宏久：声乐
 						* 11月10日，颜时彦：诗歌
-						* TBD, 张宏久：声乐
-						* TBD，董方正：数学/建筑学
 						* TBD，蔡伏羲：科幻电影
+						* TBD，艾苇：大数据和因果推断
 
 						## 期待更多讲者！
-					</textarea>
-			</section>
-			<section>
-				<section data-markdown>
-					<textarea data-template>
+					</textarea
+          >
+        </section>
+        <section>
+          <section data-markdown>
+            <textarea data-template>
 							## 自我介绍时间
 							称呼 + 专业/爱好 + 这次想在沙龙收获什么 + 任何你想让大家知道的
-						</textarea>
-				</section>
-				<section data-markdown>
-					<textarea data-template>
+						</textarea
+            >
+          </section>
+          <section data-markdown>
+            <textarea data-template>
 							## 有请本期讲者
-						</textarea>
-				</section>
-			</section>
-		</div>
-	</div>
+						</textarea
+            >
+          </section>
+        </section>
+      </div>
+    </div>
 
-	<script src="lib/js/head.min.js"></script>
-	<script src="js/reveal.js"></script>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
 
-	<script>
-		// More info about config & dependencies:
-		// - https://github.com/hakimel/reveal.js#configuration
-		// - https://github.com/hakimel/reveal.js#dependencies
-		Reveal.initialize({
-			dependencies: [{
-					src: 'plugin/markdown/marked.js'
-				},
-				{
-					src: 'plugin/markdown/markdown.js'
-				},
-				{
-					src: 'plugin/notes/notes.js',
-					async: true
-				},
-				{
-					src: 'plugin/highlight/highlight.js',
-					async: true,
-					callback: function () {
-						hljs.initHighlightingOnLoad();
-					}
-				}
-			]
-		});
-	</script>
-</body>
-
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        dependencies: [
+          {
+            src: "plugin/markdown/marked.js"
+          },
+          {
+            src: "plugin/markdown/markdown.js"
+          },
+          {
+            src: "plugin/notes/notes.js",
+            async: true
+          },
+          {
+            src: "plugin/highlight/highlight.js",
+            async: true,
+            callback: function() {
+              hljs.initHighlightingOnLoad();
+            }
+          }
+        ]
+      });
+    </script>
+  </body>
 </html>
